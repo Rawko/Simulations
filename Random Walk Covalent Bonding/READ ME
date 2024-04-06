@@ -1,28 +1,29 @@
-##Covalent Bond Simulation
-#
-#Overview
+Covalent Bond Simulation
+
+Overview
 This simulation visualizes a simplified model of atoms undergoing a random walk in a 2D space, demonstrating the formation of covalent bonds based on a simplistic interpretation of van der Waals forces. It provides an interactive element allowing users to change the number of atoms in the simulation and observe how these atoms move and bond over time. The simulation is built using HTML5 and JavaScript, leveraging the <canvas> element for drawing.
 
-##Features
+Features
 Random Walk of Atoms: Each atom moves in a random walk, simulating thermal motion.
 Bond Formation: Atoms within a specific distance range can form a bond, visualized by a line connecting them, representing a simplistic model of van der Waals forces.
 Interactive Atom Count: Users can specify the number of atoms to include in the simulation, allowing for dynamic exploration of different scenarios.
 
-##Files
+Files
 The simulation consists of two main files:
 
 index.html: The HTML document that provides the structure for the simulation's user interface.
 simulation.js: The JavaScript file containing the logic for the simulation's operation, including atom movement, bond checking, and drawing on the canvas.
 
-##Setup and Running the Simulation
+Setup and Running the Simulation
 To run the simulation, follow these steps:
 
 Download the Files: Ensure both index.html and simulation.js are saved in the same directory on your computer.
 Open index.html: Use any modern web browser to open the index.html file. This will load the simulation.
 Interact with the Simulation: Use the input field to change the number of atoms and click the "Restart Simulation" button to see the simulation with the new atom count.
+
 Requirements
 A modern web browser with support for HTML5 and JavaScript.
 No additional libraries or frameworks are required, as the simulation uses native browser capabilities.
 
-##Contributing
+Contributing
 Feel free to fork this project and contribute to its development. Whether you're fixing bugs, improving the simulation model, or adding new features, your contributions are welcome!
